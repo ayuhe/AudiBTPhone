@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+				<!-- 表盘控件 -->
+				<declare-styleable name="DashboardView">
+								<attr name="bgColor"
+								      format="color"/> <!-- 背景颜色 -->
+								<attr name="radius"
+								      format="dimension"/> <!-- 扇形半径 -->
+								<attr name="startAngle"
+								      format="float"/> <!-- 起始角度 -->
+								<attr name="maxAngle"
+								      format="float"/> <!-- 绘制角度 -->
+								<attr name="bigSliceCount"
+								      format="integer"/> <!-- 长刻度条数 -->
+								<attr name="minValue"
+								      format="integer"/> <!-- 最小值 -->
+								<attr name="maxValue"
+								      format="integer"/> <!-- 最大值 -->
+								<attr name="currentValue"
+								      format="float"/> <!-- 实时值 -->
+								<attr name="fontRadius"
+								      format="integer"/> <!-- 数字刻度圈半径 -->
+								<attr name="dailScaleRadius"
+								      format="integer"/> <!-- 刻度圈半径 -->
+								<attr name="pointerInitAngle"
+								      format="integer"/> <!-- 指针初始指向的角度 -->
+								<attr name="orientation"
+								      format="integer"/> <!-- 指针旋转方向 正值为顺时针 -->
+				</declare-styleable>
+
+				<declare-styleable name="JazzyViewPager">
+								<attr name="style">
+												<enum name="standard"
+												      value="0"/>
+												<enum name="tablet"
+												      value="1"/>
+												<enum name="cubein"
+												      value="2"/>
+												<enum name="cubeout"
+												      value="3"/>
+												<enum name="flipvertical"
+												      value="4"/>
+												<enum name="fliphorizontal"
+												      value="5"/>
+												<enum name="stack"
+												      value="6"/>
+												<enum name="zoomin"
+												      value="7"/>
+												<enum name="zoomout"
+												      value="8"/>
+												<enum name="rotateup"
+												      value="9"/>
+												<enum name="rotatedown"
+												      value="10"/>
+												<enum name="accordion"
+												      value="11"/>
+								</attr>
+								<attr name="fadeEnabled"
+								      format="boolean"/>
+								<attr name="outlineEnabled"
+								      format="boolean"/>
+								<attr name="outlineColor"
+								      format="color|reference"/>
+				</declare-styleable>
+
+</resources>

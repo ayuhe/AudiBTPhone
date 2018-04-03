@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MxImageButton">
+        <attr name="MxImageButtonKeyEvent"
+            format="string"/>
+
+    </declare-styleable>
+    <declare-styleable name="MxImageView">
+        <attr name="keyEvent"
+            format="string"/>
+        <attr name="isEnlarge"
+            format="boolean"/>
+        <attr name="weightDefault"
+            format="float"/>
+        <attr name="weightAfterChange"
+            format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="BTPhoneKeyImageView">
+        <attr name="btpKeyEvent"
+            format="string"/>
+        <attr name="btpIsEnlarge"
+            format="boolean"/>
+        <attr name="btpWeightDefault"
+            format="float"/>
+        <attr name="btpWeightAfterChange"
+            format="float"/>
+    </declare-styleable>
+
+</resources>

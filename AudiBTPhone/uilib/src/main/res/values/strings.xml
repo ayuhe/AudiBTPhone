@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UILib</string>
+
+    <string name="loading_file">正在读取文件</string>
+</resources>

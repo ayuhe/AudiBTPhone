@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:paddingLeft="6dp"
+                tools:context=".ui.btphone.callin.PhoneInComingActivity">
+
+				<RelativeLayout
+								android:id="@+id/rl_content"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="80dp"
+								android:background="@color/transparent">
+
+								<ImageView
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginStart="65dp"
+												android:background="@drawable/bg_bt_callin"/>
+
+								<ImageButton
+												android:id="@+id/ib_menu_button"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_marginLeft="30dp"
+												android:layout_marginTop="105dp"
+												android:background="@color/transparent"
+												android:focusable="false"
+												android:focusableInTouchMode="false"
+												android:src="@drawable/selector_control_menu_center"
+												android:visibility="visible"/>
+
+								<ImageView
+												android:id="@+id/iv_item_selected"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_marginStart="65dp"
+												android:src="@drawable/ic_bt_callin_item_selected_0"
+												android:visibility="visible"/>
+
+								<LinearLayout
+												android:id="@+id/ll_info"
+												android:layout_width="320dp"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginLeft="215dp"
+												android:gravity="center_horizontal"
+												android:orientation="vertical">
+
+												<TextView
+																android:id="@+id/tv_title"
+																android:layout_width="match_parent"
+																android:layout_height="wrap_content"
+																android:layout_centerHorizontal="true"
+																android:layout_marginTop="20dp"
+																android:gravity="center"
+																android:text="@string/btphone_in_coming_phone"
+																android:textColor="@color/white"
+																android:textSize="@dimen/text_size_xxxlarge"
+																android:textStyle="italic|bold"
+																android:typeface="monospace"/>
+
+												<TextView
+																android:id="@+id/tv_people_name"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_marginTop="20dp"
+																android:ellipsize="end"
+																android:gravity="center"
+																android:paddingLeft="10dp"
+																android:paddingRight="10dp"
+																android:singleLine="true"
+																android:textColor="@color/white"
+																android:textSize="32sp"
+																android:textStyle="italic|bold"
+																android:typeface="monospace"/>
+
+												<Button
+																android:id="@+id/btn_to_answer"
+																android:layout_width="wrap_content"
+																android:layout_height="70dp"
+																android:layout_marginTop="38dp"
+																android:background="@color/transparent"
+																android:drawableLeft="@drawable/icon_phone_call_toanswer"
+																android:drawablePadding="10dp"
+																android:focusable="true"
+																android:gravity="center_vertical|left"
+																android:nextFocusDown="@+id/btn_to_hangup"
+																android:nextFocusLeft="@+id/btn_to_answer"
+																android:nextFocusRight="@+id/btn_to_hangup"
+																android:nextFocusUp="@+id/btn_to_answer"
+																android:text="@string/btphone_answere_coming_phone"
+																android:textColor="@color/white"
+																android:textSize="@dimen/text_size_xxxlarge"
+																android:textStyle="italic"
+																android:typeface="monospace"/>
+
+												<Button
+																android:id="@+id/btn_to_hangup"
+																android:layout_width="wrap_content"
+																android:layout_height="70dp"
+																android:background="@color/transparent"
+																android:drawableLeft="@drawable/icon_phone_call_tohangup"
+																android:drawablePadding="10dp"
+																android:gravity="center_vertical|left"
+																android:nextFocusDown="@+id/btn_to_hangup"
+																android:nextFocusLeft="@+id/btn_to_answer"
+																android:nextFocusRight="@+id/btn_to_hangup"
+																android:nextFocusUp="@+id/btn_to_answer"
+																android:text="@string/btphone_hangup_coming_phone"
+																android:textColor="@color/white"
+																android:textSize="@dimen/text_size_xxxlarge"
+																android:textStyle="italic"
+																android:typeface="monospace"/>
+								</LinearLayout>
+				</RelativeLayout>
+
+				<RelativeLayout
+								android:id="@+id/rl_control_button"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="181dp"
+								android:layout_marginLeft="30dp">
+
+								<ImageButton
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:background="@color/transparent"
+												android:src="@drawable/ic_control_menu_normal"
+												android:visibility="invisible"/>
+
+								<ImageButton
+												android:id="@+id/ib_menu_button_left"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginStart="-10dp"
+												android:background="@color/transparent"
+												android:padding="20dp"
+												android:src="@drawable/selector_control_menu_left"
+												android:visibility="visible"/>
+
+								<ImageButton
+												android:id="@+id/ib_menu_button_right"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginLeft="108dp"
+												android:background="@color/transparent"
+												android:padding="20dp"
+												android:src="@drawable/selector_control_menu_right"
+												android:visibility="visible"/>
+				</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp">
+
+				<ImageButton
+								android:id="@+id/ib_home"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_alignParentLeft="true"
+								android:background="@color/transparent"
+								android:focusable="false"
+								android:focusableInTouchMode="false"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_home"/>
+
+				<LinearLayout
+								android:id="@+id/ll_toolbar"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_alignParentRight="true"
+								android:background="@drawable/bg_time"
+								android:gravity="top|right"
+								android:orientation="horizontal"
+								android:paddingLeft="10dp"
+								android:paddingRight="16dp"
+								android:paddingTop="3dp">
+
+								<ImageView
+												android:id="@+id/iv_taiking"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_marginRight="15dp"
+												android:scaleType="centerInside"
+												android:src="@drawable/ic_bt_taiking"
+												android:visibility="gone"/>
+
+								<ImageView
+												android:id="@+id/iv_bt"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_marginRight="15dp"
+												android:scaleType="centerInside"
+												android:src="@drawable/ic_bt_on"
+												android:visibility="gone"/>
+
+								<ImageView
+												android:id="@+id/iv_wifi"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_marginRight="15dp"
+												android:scaleType="centerInside"
+												android:src="@drawable/ic_wifi_lv0"/>
+
+								<TextView
+												android:id="@+id/tv_time"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_gravity="top|right"
+												android:gravity="center"
+												android:textColor="@color/white"
+												android:textSize="@dimen/text_size_xxxlarge"/>
+
+				</LinearLayout>
+</RelativeLayout>

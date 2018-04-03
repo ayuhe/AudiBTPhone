@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="390dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/selector_menu"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                android:gravity="clip_horizontal">
+
+				<TextView
+								android:id="@+id/tv_title"
+								android:layout_width="390dp"
+								android:layout_height="wrap_content"
+								android:layout_centerHorizontal="true"
+								android:gravity="center_vertical|left"
+								android:minHeight="69dp"
+								android:paddingLeft="20dp"
+								android:singleLine="true"
+								android:text="暂停"
+								android:textColor="@color/whitesmoke"
+								android:textSize="@dimen/text_size_xxxlarge"/>
+
+</RelativeLayout>

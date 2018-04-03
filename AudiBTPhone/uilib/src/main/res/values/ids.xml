@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+				<item name="cn_view"
+				      type="id"/>
+				<item name="tw_view"
+				      type="id"/>
+				<item name="es_view"
+				      type="id"/>
+				<item name="current_statu_view"
+				      type="id"/>
+
+				<item name="map_menu_left_view"
+				      type="id"/>
+				<item name="map_menu_right_view"
+				      type="id"/>
+				<item name="map_menu_top_view"
+				      type="id"/>
+				<item name="map_menu_bottom_view"
+				      type="id"/>
+				<item name="map_menu_center_view"
+				      type="id"/>
+
+				<item name="navi_menu_top_view"
+				      type="id"/>
+				<item name="navi_menu_bottom_view"
+				      type="id"/>
+
+				<item name="split_menu_left_view"
+				      type="id"/>
+				<item name="split_menu_right_view"
+				      type="id"/>
+				<item name="split_menu_top_view"
+				      type="id"/>
+				<item name="split_menu_bottom_view"
+				      type="id"/>
+				<item name="split_menu_center_view"
+				      type="id"/>
+
+				<!--时钟-->
+				<item name="rl_clock_pointer_main_bg"
+				      type="id"></item>
+				<item name="rl_clock_pointer_pointer_hour"
+				      type="id"></item>
+				<item name="rl_clock_pointer_pointer_minute"
+				      type="id"></item>
+</resources>

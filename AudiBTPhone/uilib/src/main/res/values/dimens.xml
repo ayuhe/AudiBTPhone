@@ -1,0 +1,19 @@
+<resources>
+
+    <!--字体大小-->
+    <dimen name="text_size_xxxxlarge">35.0sp</dimen>
+    <dimen name="text_size_xxxlarge">28.0sp</dimen>
+    <dimen name="text_size_xxlarge">24.0sp</dimen>
+    <dimen name="text_size_xlarge">20.0sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+    <dimen name="text_size_xmedium">15.0sp</dimen>
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="text_size_small_13">13.0sp</dimen>
+    <dimen name="text_size_xsmall">12.0sp</dimen>
+    <dimen name="text_size_xsmall_11">11.0sp</dimen>
+    <dimen name="text_size_xxsmall">10.0sp</dimen>
+    <dimen name="text_size_xxxsmall">8.0sp</dimen>
+    <dimen name="text_size_xxxxsmall">6.0sp</dimen>
+
+</resources>

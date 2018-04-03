@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+				<RelativeLayout
+								android:id="@+id/rl_music_left"
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent">
+
+								<RelativeLayout
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content">
+												<ImageView
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentBottom="true"
+																android:layout_marginLeft="68dp"
+																android:src="@drawable/bg_music_menu"/>
+
+												<ImageButton
+																android:id="@+id/ib_menu_button_icon"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_marginLeft="0dp"
+																android:layout_marginTop="181dp"
+																android:background="@color/transparent"
+																android:src="@drawable/selector_control_menu_center"
+																android:visibility="invisible"/>
+
+												<ImageView
+																android:id="@+id/iv_menu_icon_selected"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentBottom="true"
+																android:layout_marginStart="30dp"
+																android:visibility="invisible"/>
+
+												<ListView
+																android:id="@+id/menu_icon_listview"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentTop="true"
+																android:layout_gravity="left"
+																android:layout_marginLeft="210dp"
+																android:layout_marginTop="60dp"
+																android:background="@color/transparent"
+																android:divider="@null"
+																android:dividerHeight="0dp"
+																android:drawSelectorOnTop="false"
+																android:fastScrollEnabled="true"
+																android:listSelector="@drawable/bg_menu_normal"
+																android:paddingBottom="5dp"
+																android:scrollbars="none"
+																android:visibility="visible"/>
+								</RelativeLayout>
+
+								<RelativeLayout
+												android:id="@+id/rl_music"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content">
+
+												<ImageView
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentBottom="true"
+																android:layout_marginStart="270dp"
+																android:background="@drawable/bg_music_list"/>
+
+												<ImageView
+																android:id="@+id/iv_device_bg"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_marginStart="286dp"
+																android:layout_marginTop="62dp"
+																android:background="@color/transparent"
+																android:scaleType="fitXY"
+																android:src="@drawable/bg_device_info"
+																android:visibility="gone"/>
+
+												<ImageButton
+																android:id="@+id/ib_menu_button_music"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_marginLeft="230dp"
+																android:layout_marginTop="181dp"
+																android:background="@color/transparent"
+																android:src="@drawable/selector_control_menu_center"
+																android:visibility="invisible"/>
+
+												<ImageView
+																android:id="@+id/iv_music_item_selected"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentBottom="true"
+																android:layout_marginStart="230dp"
+																android:visibility="invisible"/>
+
+												<LinearLayout
+																android:id="@+id/ll_music_info"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_marginLeft="305dp"
+																android:layout_marginTop="5dp"
+																android:orientation="vertical">
+																<LinearLayout
+																				android:layout_width="wrap_content"
+																				android:layout_height="wrap_content"
+																				android:orientation="horizontal">
+																				<TextView
+																								android:id="@+id/tv_title"
+																								style="@style/style_media_text"
+																								android:layout_width="wrap_content"
+																								android:layout_height="wrap_content"
+																								android:focusable="false"
+																								android:text="@string/btphone_phone"/>
+
+																				<EditText
+																								android:id="@+id/et_device_name"
+																								style="@style/style_media_text"
+																								android:layout_width="wrap_content"
+																								android:layout_height="wrap_content"
+																								android:layout_marginLeft="50dp"
+																								android:background="@color/transparent"
+																								android:hint="@string/btphone_bluetooth_name"
+																								android:minWidth="180dp"
+																								android:textColorHint="@color/slategrey"
+																								android:visibility="gone"/>
+																</LinearLayout>
+
+																<com.lingfei.android.uilib.widget.ViewPagerFixed
+																				android:id="@+id/viewPager"
+																				android:layout_width="570dp"
+																				android:layout_height="match_parent"
+																				android:layout_marginLeft="125dp"
+																				android:background="@color/transparent"
+																				android:nextFocusDown="@id/viewPager"
+																				android:nextFocusLeft="@id/viewPager"
+																				android:nextFocusRight="@id/viewPager"
+																				android:nextFocusUp="@id/viewPager"/>
+												</LinearLayout>
+
+												<ImageView
+																android:id="@+id/iv_translucent"
+																android:layout_width="match_parent"
+																android:layout_height="match_parent"
+																android:layout_marginTop="53dp"
+																android:background="@color/translucent"
+																android:visibility="invisible"/>
+								</RelativeLayout>
+
+								<RelativeLayout
+												android:id="@+id/rl_popuwindow"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:visibility="invisible">
+												<ImageView
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentBottom="true"
+																android:layout_marginStart="263dp"
+																android:background="@drawable/bg_popupwindow"/>
+
+												<ListView
+																android:id="@+id/menu_title_listview"
+																android:layout_width="wrap_content"
+																android:layout_height="wrap_content"
+																android:layout_alignParentTop="true"
+																android:layout_marginLeft="280dp"
+																android:layout_marginTop="58dp"
+																android:background="@color/transparent"
+																android:divider="@null"
+																android:dividerHeight="0dp"
+																android:drawSelectorOnTop="false"
+																android:fastScrollEnabled="true"
+																android:listSelector="@drawable/bg_menu_normal"
+																android:nextFocusDown="@id/menu_title_listview"
+																android:nextFocusLeft="@id/menu_title_listview"
+																android:nextFocusRight="@id/menu_title_listview"
+																android:nextFocusUp="@id/menu_title_listview"
+																android:paddingBottom="8dp"
+																android:scrollbars="none"
+																android:visibility="visible"/>
+								</RelativeLayout>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+								android:id="@+id/rl_control_button"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="181dp">
+
+								<ImageButton
+												android:id="@+id/ib_menu_button"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:background="@color/transparent"
+												android:src="@drawable/ic_control_menu_normal"
+												android:visibility="visible"/>
+
+								<ImageButton
+												android:id="@+id/ib_menu_button_left"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginStart="-10dp"
+												android:background="@color/transparent"
+												android:padding="20dp"
+												android:src="@drawable/selector_control_menu_left"
+												android:visibility="visible"/>
+
+								<ImageButton
+												android:id="@+id/ib_menu_button_right"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_centerVertical="true"
+												android:layout_marginLeft="107dp"
+												android:background="@color/transparent"
+												android:padding="20dp"
+												android:src="@drawable/selector_control_menu_right"
+												android:visibility="visible"/>
+				</RelativeLayout>
+
+				<RelativeLayout
+								android:id="@+id/rl_music_right"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_alignParentRight="true"
+								android:layout_centerVertical="true"
+								android:paddingRight="20dp"
+								android:visibility="visible">
+
+								<ImageView
+												android:id="@+id/iv_default_cover"
+												android:layout_width="wrap_content"
+												android:layout_height="wrap_content"
+												android:layout_alignParentRight="true"
+												android:layout_centerVertical="true"
+												android:layout_marginRight="50dp"
+												android:src="@drawable/ic_bt_phone_default"
+												android:visibility="visible"/>
+
+				</RelativeLayout>
+</RelativeLayout>

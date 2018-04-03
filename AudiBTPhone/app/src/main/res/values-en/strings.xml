@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+				<string name="app_name">BT Phone</string>
+
+				<string name="callingnow">Calling…</string>
+				<string name="btphone_tosearch_hint1">Please click "OK" before searching:</string>
+				<string name="btphone_tosearch_hint2">Telephone on</string>
+				<string name="btphone_tosearch_hint3">Bluetooth actived</string>
+				<string name="btphone_tosearch_hint4">Show "available" in phone setting</string>
+				<string name="btphone_search_failed_hint1">No bluetooth devices found</string>
+				<string name="btphone_search_failed_hint2">Searching again or try to search with cell phone</string>
+				<string name="btphone_search_failed_hint3">Please choose proper options</string>
+				<string name="btphone_search_start">Start search</string>
+				<string name="btphone_searching">Search...</string>
+				<string name="btphone_devices">Known device</string>
+				<string name="btphone_connect">(Use cellphone connect the device.)</string>
+				<string name="btphone_taiking">Talking</string>
+				<string name="btphone_search_startagain">Searching again</string>
+				<string name="btphone_search_stop">Cancel</string>
+				<string name="btphone_to_call">Dial number</string>
+				<string name="btphone_missed_come_phone">Missed calls</string>
+				<string name="btphone_answered_come_phone">Answered calls</string>
+				<string name="btphone_called_out_phone">Dialed numbers</string>
+				<string name="btphone_in_coming_phone">Call in</string>
+				<string name="btphone_answere_coming_phone">Answer</string>
+				<string name="btphone_hangup_coming_phone">Reject</string>
+				<string name="btphone_no_link_phone">No telephone connected</string>
+				<string name="btphone_auto_load_contact">Synchronized phone book automatically</string>
+				<string name="btphone_manual_load_contact">Synchronized phone book manually</string>
+				<string name="btphone_load_contact">Loading</string>
+				<string name="btphone_option">Options</string>
+				<string name="btphone_link_device">Connection device</string>
+				<string name="btphone_call_log">Calling record</string>
+				<string name="btphone_search_phone">Search phone book</string>
+				<string name="btphone_bluetooth_name">Bluetooth device</string>
+				<string name="btphone_bluetooth_pwd">Bluetooth code</string>
+				<string name="btphone_phone">Telephone</string>
+				<string name="btphone_read_contact">Read contact</string>
+				<string name="btphone_input_phone_number">Input number</string>
+				<string name="btphone_connected">Connected&#160;</string>
+				<string name="btphone_disconnected">Disconnected&#160;</string>
+				<string name="btphone_connecting">Connecting&#160;</string>
+				<string name="btmusic">BT Music</string>
+
+				<string name="ok">OK</string>
+				<string name="cancel">Cancel</string>
+
+				<string name="loading_file">File reading…</string>
+
+				<string name="dialog_ok">ok</string>
+				<string name="dialog_cancle">cancel</string>
+
+</resources>

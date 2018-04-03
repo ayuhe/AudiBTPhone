@@ -1,0 +1,25 @@
+<resources>
+				<!-- Default screen margins, per the Android Design guidelines. -->
+				<dimen name="activity_horizontal_margin">16dp</dimen>
+				<dimen name="activity_vertical_margin">16dp</dimen>
+
+				<dimen name="main_menu_height">52dp</dimen>
+
+				<!--距离顶部间距高度-->
+				<dimen name="main_padding_top_height">45dp</dimen>
+				<!--距离底部间距高度-->
+				<dimen name="main_padding_bottom_height">45dp</dimen>
+
+				<!--分割线的高度-->
+				<dimen name="main_line_height">1.5dp</dimen>
+
+				<dimen name="surfacewidth">80dip</dimen>
+				<dimen name="surfaceheight">70dip</dimen>
+
+				<dimen name="default_phone_font_size">35sp</dimen>
+				<dimen name="default_phone_bar_height">60dp</dimen>
+
+				<!--空调高度-->
+				<dimen name="air_layout_height">60dp</dimen>
+
+</resources>

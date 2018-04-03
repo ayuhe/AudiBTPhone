@@ -1,0 +1,200 @@
+<resources>
+
+				<!-- Base application theme. -->
+				<style name="AppTheme"
+				       parent="Theme.AppCompat.Light.NoActionBar">
+								<!-- Customize your theme here. -->
+								<item name="colorPrimary">@color/colorPrimary</item>
+								<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+								<item name="colorAccent">@color/colorAccent</item>
+				</style>
+
+				<style name="FullscreenTheme"  parent="AppTheme">
+								<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+								<item name="android:windowActionBarOverlay">true</item>
+								<item name="android:windowBackground">@null</item>
+								<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+								<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+				</style>
+
+				<style name="FullTransparentTheme"  parent="AppTheme">
+								<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+								<item name="android:windowActionBarOverlay">true</item>
+								<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+								<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+								<item name="android:windowBackground">@color/transparent</item>
+								<item name="android:windowNoTitle">true</item>
+								<item name="android:windowIsTranslucent">true</item>
+								<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+				</style>
+
+				<style name="FullscreenActionBarStyle"
+				       parent="Widget.AppCompat.ActionBar">
+								<item name="android:background">@color/black_overlay</item>
+				</style>
+
+				<style name="SingleLineText">
+								<item name="android:textSize">18.0sp</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:ellipsize">marquee</item>
+								<item name="android:singleLine">true</item>
+								<item name="android:marqueeRepeatLimit">marquee_forever</item>
+				</style>
+
+				<style name="NaviGuideTextStyle">
+								<item name="android:textSize">32sp</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:ellipsize">marquee</item>
+								<item name="android:singleLine">true</item>
+								<item name="android:marqueeRepeatLimit">marquee_forever</item>
+				</style>
+
+				<style name="MainLeftMenuStyle">
+								<item name="android:layout_width">wrap_content</item>
+								<item name="android:layout_height">wrap_content</item>
+								<item name="android:background">@color/transparent</item>
+								<item name="android:paddingTop">15dp</item>
+								<item name="android:paddingBottom">15dp</item>
+								<item name="android:paddingLeft">6dp</item>
+								<item name="android:paddingRight">20dp</item>
+				</style>
+
+				<style name="TabTextStyle">
+								<item name="android:textSize">@dimen/text_size_xxlarge</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:ellipsize">marquee</item>
+								<item name="android:singleLine">true</item>
+								<item name="android:gravity">center</item>
+								<item name="android:background">@drawable/selector_menu</item>
+								<item name="android:marqueeRepeatLimit">marquee_forever</item>
+				</style>
+
+				<!--Dialog -->
+				<style name="MyDialogTheme"
+				       parent="Theme.AppCompat.Dialog">
+								<item name="windowNoTitle">true</item>
+								<item name="windowActionBar">false</item>
+								<item name="toolbarStyle">@null</item>
+				</style>
+
+				<!--Dialog -->
+				<style name="DialogTheme"
+				       parent="Theme.AppCompat.Dialog">
+								<item name="windowNoTitle">true</item>
+								<item name="windowActionBar">false</item>
+								<item name="toolbarStyle">@null</item>
+								<item name="android:windowCloseOnTouchOutside">false</item>
+								<item name="android:windowBackground">@drawable/bg_empty</item>
+								<item name="android:windowIsFloating">true</item>
+								<item name="android:windowFrame">@null</item>
+								<item name="android:backgroundDimEnabled">true</item>
+								<item name="android:windowIsTranslucent">false</item>
+								<item name="android:windowNoTitle">true</item>
+				</style>
+
+				<style name="OvalMenuStyle">
+								<item name="android:layout_width">wrap_content</item>
+								<item name="android:layout_height">wrap_content</item>
+								<item name="android:textSize">24.0sp</item>
+								<item name="android:textColor">@android:color/white</item>
+								<item name="android:typeface">monospace</item>
+								<item name="android:textStyle">italic</item>
+								<item name="android:paddingBottom">20dp</item>
+								<item name="android:paddingRight">20dp</item>
+								<item name="android:paddingTop">30dp</item>
+								<item name="android:paddingLeft">20dp</item>
+								<item name="android:ellipsize">marquee</item>
+								<item name="android:singleLine">true</item>
+								<item name="android:marqueeRepeatLimit">marquee_forever</item>
+				</style>
+
+				<style name="SettingMenuViewStyle">
+								<item name="android:layout_width">246dp</item>
+								<item name="android:layout_height">246dp</item>
+								<item name="android:layout_alignParentRight">true</item>
+								<item name="android:layout_alignParentTop">true</item>
+								<item name="android:layout_marginTop">1dp</item>
+								<item name="android:layout_marginRight">30dp</item>
+								<item name="android:visibility">gone</item>
+				</style>
+
+				<style name="SettingKeyStyle">
+								<item name="android:layout_width">wrap_content</item>
+								<item name="android:layout_height">wrap_content</item>
+								<item name="android:focusable">true</item>
+								<item name="android:clickable">true</item>
+								<item name="android:focusableInTouchMode">false</item>
+								<item name="android:descendantFocusability">blocksDescendants</item>
+				</style>
+
+					<!--系统信息界面的字体Style-->
+				<style name="SystemInfoTextStyle">
+								<item name="android:layout_width">match_parent</item>
+								<item name="android:layout_height">68dp</item>
+								<item name="android:gravity">left|center_vertical</item>
+								<item name="android:singleLine">true</item>
+								<item name="android:padding">10dp</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:textSize">@dimen/text_size_xxxlarge</item>
+								<item name="android:focusable">true</item>
+								<item name="android:clickable">true</item>
+								<item name="android:focusableInTouchMode">true</item>
+								<item name="android:background">@drawable/bg_menu_normal</item>
+								<item name="android:descendantFocusability">blocksDescendants</item>
+				</style>
+
+				<style name="tv_phoneKey">
+								<item name="android:background">@color/shanlan</item>
+								<item name="android:gravity">center</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:layout_width">0dp</item>
+								<item name="android:textSize">16sp</item>
+
+								<item name="android:layout_height">20dp</item>
+				</style>
+
+				<style name="ll_phone_keyline_style">
+								<item name="android:layout_marginLeft">16dp</item>
+								<item name="android:layout_marginRight">14dp</item>
+				</style>
+
+				<style name="btn_bluephone_connectionpage_button">
+								<item name="android:paddingLeft">30dp</item>
+								<item name="android:gravity">center|left</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:textSize">25sp</item>
+								<item name="android:textStyle">italic</item>
+								<item name="android:typeface">monospace</item>
+
+				</style>
+
+				<style name="style_media_text">
+								<item name="android:gravity">center|left</item>
+								<item name="android:textColor">@color/whitesmoke</item>
+								<item name="android:textSize">@dimen/text_size_xxxlarge</item>
+								<item name="android:paddingTop">8dp</item>
+								<item name="android:paddingLeft">20dp</item>
+								<item name="android:singleLine">true</item>
+				</style>
+
+				<style name="TwoLevelTextStyle">
+								<item name="android:layout_width">wrap_content</item>
+								<item name="android:layout_height">wrap_content</item>
+								<item name="android:layout_marginLeft">50dp</item>
+								<item name="android:layout_centerVertical">true</item>
+								<item name="android:textColor">@color/white</item>
+								<item name="android:textSize">@dimen/text_size_xxxlarge</item>
+				</style>
+
+				<style name="MyRelativeStyle">
+								<item name="android:layout_width">match_parent</item>
+								<item name="android:layout_height">68dp</item>
+								<item name="android:focusable">true</item>
+								<item name="android:clickable">true</item>
+								<item name="android:focusableInTouchMode">true</item>
+								<item name="android:background">@drawable/bg_menu_normal</item>
+								<item name="android:descendantFocusability">blocksDescendants</item>
+				</style>
+
+
+</resources>

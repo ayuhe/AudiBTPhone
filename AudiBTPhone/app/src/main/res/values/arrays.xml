@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+				<!--蓝牙电话-->
+				<string-array name="bt_phone_array">
+								<item>拨号</item>
+								<item>联系人</item>
+								<item>设备</item>
+				</string-array>
+
+				<!--蓝牙音乐-->
+				<string-array name="bt_music_array">
+								<item>播放</item>
+								<item>暂停</item>
+								<item>停止</item>
+								<item>上一首</item>
+								<item>下一首</item>
+				</string-array>
+
+</resources>

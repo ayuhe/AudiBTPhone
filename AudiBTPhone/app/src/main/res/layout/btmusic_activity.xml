@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="65dp"
+            android:background="@drawable/bg_music_list"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/style_media_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/btmusic"/>
+
+        <ImageButton
+            android:id="@+id/ib_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="181dp"
+            android:background="@color/transparent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/selector_control_menu_center"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/iv_music_item_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_list_item_selected_0"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/listview_content"
+            android:layout_width="580dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/transparent"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp"
+            android:listSelector="@drawable/bg_menu_normal"
+            android:nextFocusDown="@id/listview_content"
+            android:nextFocusLeft="@id/listview_content"
+            android:nextFocusRight="@id/listview_content"
+            android:nextFocusUp="@id/listview_content"
+            android:paddingBottom="5dp"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/ic_listview_scrollbar"
+            android:scrollbarTrackVertical="@drawable/ic_listview_scroll_bg"
+            android:scrollbars="vertical"/>
+
+        <ImageView
+            android:id="@+id/iv_translucent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/translucent"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_control_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="181dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_control_menu_normal"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/ib_menu_button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="-10dp"
+            android:background="@color/transparent"
+            android:padding="20dp"
+            android:src="@drawable/selector_control_menu_left"
+            android:visibility="visible"/>
+
+        <ImageButton
+            android:id="@+id/ib_menu_button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="108dp"
+            android:background="@color/transparent"
+            android:padding="20dp"
+            android:src="@drawable/selector_control_menu_right"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="63dp"
+            android:src="@drawable/ic_bt_music_cover"/>
+
+    </RelativeLayout>
+</RelativeLayout>

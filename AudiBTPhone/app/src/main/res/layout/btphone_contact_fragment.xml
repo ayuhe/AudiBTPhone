@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              android:paddingBottom="6dp"
+              android:paddingTop="5dp"
+              android:paddingLeft="15dp">
+
+				<ListView
+								android:id="@+id/lv_phone_book"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:background="@color/transparent"
+								android:divider="@color/transparent"
+								android:dividerHeight="0dp"
+								android:listSelector="@drawable/bg_menu_normal"
+								android:nextFocusDown="@id/lv_phone_book"
+								android:nextFocusLeft="@id/lv_phone_book"
+								android:nextFocusRight="@id/lv_phone_book"
+								android:nextFocusUp="@id/lv_phone_book"
+								android:scrollbarStyle="outsideInset"
+								android:scrollbarThumbVertical="@drawable/ic_listview_scrollbar"
+								android:scrollbarTrackVertical="@drawable/ic_listview_scroll_bg"
+								android:scrollbars="vertical"/>
+</LinearLayout>

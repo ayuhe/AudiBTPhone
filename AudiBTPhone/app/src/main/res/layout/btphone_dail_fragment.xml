@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:paddingLeft="15dp"
+              android:orientation="vertical">
+
+				<TextView
+								android:id="@+id/tv_dail_num"
+								android:layout_width="455dp"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="3dp"
+								android:background="@drawable/bg_setting_pwd_input"
+								android:clickable="false"
+								android:gravity="center"
+								android:maxLength="28"
+								android:singleLine="true"
+								android:textColor="@color/white"
+								android:textSize="@dimen/text_size_xxxlarge"/>
+
+				<include layout="@layout/phone_dail_layout"/>
+</LinearLayout>

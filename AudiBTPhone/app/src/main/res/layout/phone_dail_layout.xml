@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_setting_password"
+              android:orientation="vertical">
+
+				<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal"
+								android:paddingTop="1dp">
+
+								<ImageButton
+												android:id="@+id/key1"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_1"
+												android:nextFocusDown="@+id/key2"
+												android:nextFocusUp="@+id/key1"
+												android:src="@drawable/ic_key_normal_1"/>
+
+								<ImageButton
+												android:id="@+id/key2"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_2"
+												android:nextFocusDown="@+id/key3"
+												android:nextFocusUp="@+id/key1"
+												android:src="@drawable/ic_key_normal_2"/>
+
+								<ImageButton
+												android:id="@+id/key3"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_3"
+												android:nextFocusDown="@+id/key4"
+												android:nextFocusRight="@+id/key4"
+												android:nextFocusUp="@+id/key2"
+												android:src="@drawable/ic_key_normal_3"/>
+
+								<ImageButton
+												android:id="@+id/key4"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_4"
+												android:nextFocusDown="@+id/key5"
+												android:nextFocusLeft="@id/key3"
+												android:nextFocusUp="@+id/key3"
+												android:src="@drawable/ic_key_normal_4"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal">
+								<ImageButton
+												android:id="@+id/key5"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_5"
+												android:nextFocusDown="@+id/key6"
+												android:nextFocusUp="@+id/key4"
+												android:src="@drawable/ic_key_normal_5"/>
+
+								<ImageButton
+												android:id="@+id/key6"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_6"
+												android:nextFocusDown="@+id/key7"
+												android:nextFocusUp="@+id/key5"
+												android:src="@drawable/ic_key_normal_6"/>
+
+								<ImageButton
+												android:id="@+id/key7"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_7"
+												android:nextFocusDown="@+id/key8"
+												android:nextFocusUp="@id/key6"
+												android:src="@drawable/ic_key_normal_7"/>
+
+								<ImageButton
+												android:id="@+id/key8"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_8"
+												android:nextFocusDown="@+id/key9"
+												android:nextFocusUp="@id/key7"
+												android:src="@drawable/ic_key_normal_8"/>
+				</LinearLayout>
+
+				<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal">
+
+								<ImageButton
+												android:id="@+id/key9"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_9"
+												android:nextFocusDown="@+id/key0"
+												android:nextFocusUp="@id/key8"
+												android:src="@drawable/ic_key_normal_9"/>
+
+								<ImageButton
+												android:id="@+id/key0"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_0"
+												android:nextFocusDown="@+id/key_asterisk"
+												android:nextFocusUp="@id/key9"
+												android:src="@drawable/ic_key_normal_0"/>
+
+								<ImageButton
+												android:id="@+id/key_asterisk"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_90"
+												android:nextFocusDown="@+id/key_pound"
+												android:nextFocusUp="@+id/key0"
+												android:src="@drawable/ic_key_normal_90"/>
+
+								<ImageButton
+												android:id="@+id/key_pound"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_91"
+												android:nextFocusDown="@+id/key_clear"
+												android:nextFocusUp="@id/key_asterisk"
+												android:src="@drawable/ic_key_normal_91"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal">
+
+								<ImageButton
+												android:id="@+id/key_clear"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_clear"
+												android:nextFocusDown="@+id/key_enter"
+												android:nextFocusUp="@id/key_pound"
+												android:src="@drawable/ic_key_normal_clear"/>
+
+								<ImageButton
+												android:id="@+id/key_enter"
+												style="@style/SettingKeyStyle"
+												android:background="@drawable/selector_key_ok"
+												android:nextFocusDown="@id/key_enter"
+												android:nextFocusUp="@id/key_clear"
+												android:src="@drawable/ic_key_normal_ok"/>
+				</LinearLayout>
+</LinearLayout>
